@@ -1,0 +1,67 @@
+<mvc:View controllerName="tvsmatser.controller.Home" xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:tnt="sap.tnt" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<App>
+		<pages >
+			<Page showHeader="false" class="PageId">
+				<tnt:ToolHeader class="toolHeaderClass">
+					<Image src="images/Logo.png"></Image>
+					<ToolbarSpacer/>
+					<Text class="headerTextClass" text="Inspection / Measurement Value Recording System" wrapping="false"></Text>
+					<ToolbarSpacer/>
+					<Text id="DataAndTimeid" class="DataAndTimeClass"></Text>
+				</tnt:ToolHeader>
+				<!--<VBox class="vBoxheadingClass">-->
+					<Bar class="headingBarClass">
+						<contentLeft>
+							<Label text="Select Section" class="SectionLabelClass"></Label>
+							<Select class="ComboBoxClass" id="SectionId" items="{/}" change="onChangeSection">
+								<core:Item key="{key}" text="{value}"/>
+							</Select>
+							<Label text="Select Part" id="PartLabelId" class="PartLabelClass"></Label>
+							<Select class="ComboBoxClass" id="PartId" items="{/}" change="onChangePart">
+								<core:Item key="{key}" text="{value}"/>
+							</Select>
+						</contentLeft>
+						<!--<contentRight>-->
+						<!--	<Image src="images/get_details.png" height="75%" press="btnPressGet_details"></Image>-->
+						<!--</contentRight>-->
+					</Bar>
+					<f:SimpleForm editable="true" labelSpanL="4" labelSpanM="4" emptySpanL="4" emptySpanM="4" maxContainerCols="8" class="simpleformClass">
+						<f:content>
+							<core:Title/>
+							<Label class="EmployeeLabelClass" text="Employee" required="true"></Label>
+							<Input type="Number" id="employeeInputId" pattern="[0-9]*"></Input>
+							<Label text="Plant" textAlign="Center" class="plantLabelClass" required="true"></Label>
+							<Select class="plantComboBoxClass" change="PlantChange" items="{/}" id="plantSelectId">
+								<core:Item key="{Plant}" text="{Description}"></core:Item>
+							</Select>
+							<Label text="Shop" textAlign="Center" class="shopLabelClass" required="true"></Label>
+							<Select class="plantComboBoxClass" change="shopChange" items="{/}" id="shopSelectId" >
+								<core:Item key="{Shop}" text="{Shop}"></core:Item>
+							</Select>
+							<core:Title/>
+							<Label text="Material" textAlign="Center" class="materialLabelClass"></Label>
+							<Select class="plantComboBoxClass" items="{/}" id="materialSelectId">
+								<core:Item key="{Matnr}" text="{Matnr}"></core:Item>
+							</Select>
+							<Label text="Date" textAlign="Center" class="datatLabelClass" required="true"></Label>
+							<!--<DateTimeInput type="Date" id="DatePickerId" class="DatePickerClass" />-->
+							<DateTimeInput id="DatePickerId" class="DatePickerClass"  valueFormat = "yyyy-MM-dd" placeholder="Enter Date" type="Date"  change="handleStartDateChange" />
+					
+						</f:content>
+						
+					</f:SimpleForm>
+					<!--<f:SimpleForm>-->
+					<!--	<f:content>-->
+					<HBox justifyContent="Center" width="100%">
+								<Button text="Get Details" press="btnPressGet_details"  type="Emphasized" icon="sap-icon://detail-view"></Button>
+								</HBox>
+				<footer>
+					<OverflowToolbar class="homeFooter">
+						<Text class="rightsTextClass" text="© 2016 TVS Motor Company, All Rights Reserved"></Text>
+					</OverflowToolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

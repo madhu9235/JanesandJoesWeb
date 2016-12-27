@@ -1,0 +1,139 @@
+<mvc:View controllerName="tvsmatser.controller.Detail" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic"
+	xmlns:core="sap.ui.core" xmlns:tnt="sap.tnt">
+	<semantic:DetailPage id="page" title="Lot Inspection Details" class="DetailPageClass" titleLevel="H5">
+		<semantic:customHeaderContent>
+			<!--<Text  text="My Data" id="fragmentProductionDateTableId"></Text>-->
+			<Button type="Emphasized" text="Save" icon="sap-icon://save" press="SaveBtn" id="IdSaveBtn" visible="false"></Button>
+		</semantic:customHeaderContent>
+		<semantic:subHeader>
+			<tnt:ToolHeader class="toolHeaderClass">
+				<Table showNoData="false" class="firstTable" id="DetailSecondTableId">
+					<columns>
+						<!--<Column class="tableHeaderClass">-->
+						<!--	<Text text="OPN"></Text>-->
+						<!--</Column>-->
+						<Column class="tableHeaderClass" width="4rem">
+							<Text text="OPN Desc"  class="textColorID"></Text>
+						</Column>
+						<!--<Column class="tableHeaderClass">-->
+						<!--	<Text text="Char Id"></Text>-->
+						<!--</Column>-->
+						<Column class="tableHeaderClass" width="4rem">
+							<Text text="Char Id Desc"  class="textColorID"></Text>
+						</Column>
+						<Column class="tableHeaderClass" >
+							<Text text="LSL / USL" class="textColorID"></Text>
+						</Column>
+						<!--<Column class="tableHeaderClass" width="3rem">-->
+						<!--	<Text text="" class="textColorID"></Text>-->
+						<!--</Column>-->
+						<Column class="tableHeaderClass">
+							<Text text="Val 1" class="textColorID"></Text>
+						</Column>
+						<Column class="tableHeaderClass">
+							<Text text="Val 2" class="textColorID"></Text>
+						</Column>
+						<Column class="tableHeaderClass">
+							<Text text="Val 3" class="textColorID"></Text>
+						</Column>
+						<Column class="tableHeaderClass" >
+							<Text text="UOM / SPC" class="textColorID"></Text>
+						</Column>
+						<!--<Column class="tableHeaderClass" width="2rem">-->
+						<!--	<Text text="SPC" class="textColorID"></Text>-->
+						<!--</Column>-->
+						<Column class="tableHeaderClass" width="4rem">
+							<Text text="PMethod" class="textColorID"></Text>
+						</Column>
+					</columns>
+				</Table>
+			</tnt:ToolHeader>
+		</semantic:subHeader>
+		<!--<Table showNoData="false" class="firstTable" id="DetailSirstTableId">-->
+		<!--	<columns>-->
+		<!--		<Column class="tableHeaderClass">-->
+		<!--			<Text text="Plant" class="textColorID"></Text>-->
+		<!--		</Column>-->
+		<!--		<Column class="tableHeaderClass">-->
+		<!--			<Text text="Shop" class="textColorID"></Text>-->
+		<!--		</Column>-->
+		<!--		<Column class="tableHeaderClass">-->
+		<!--			<Text text="Material" class="textColorID"></Text>-->
+		<!--		</Column>-->
+		<!--		<Column class="tableHeaderClass">-->
+		<!--			<Text text="Description" class="textColorID"></Text>-->
+		<!--		</Column>-->
+		<!--		<Column class="tableHeaderClass">-->
+		<!--			<Text text="Production version" class="textColorID"></Text>-->
+		<!--		</Column>-->
+		<!--		<Column class="tableHeaderClass">-->
+		<!--			<Text text="Date" class="textColorID"></Text>-->
+		<!--		</Column>-->
+		<!--	</columns>-->
+		<!--	<ColumnListItem>-->
+		<!--		<cells class="cellsId">-->
+		<!--			<Label id="fragmentPlantTableId"></Label>-->
+		<!--		</cells>-->
+		<!--		<cells class="cellsId">-->
+		<!--			<Label id="fragmentShopTableId"></Label>-->
+		<!--		</cells>-->
+		<!--		<cells class="cellsId">-->
+		<!--			<Label id="fragmentMaterilTableId"></Label>-->
+		<!--		</cells>-->
+		<!--		<cells class="cellsId">-->
+		<!--			<Label id="fragmentDescriptionTableId"></Label>-->
+		<!--		</cells>-->
+		<!--		<cells class="cellsId">-->
+		<!--			<Label id="fragmentProductionVersionTableId"></Label>-->
+		<!--		</cells>-->
+		<!--		<cells class="cellsId">-->
+		<!--			<Label id="fragmentProductionDateTableId"></Label>-->
+		<!--		</cells>-->
+		<!--	</ColumnListItem>-->
+		<!--</Table>-->
+		<!--<Table showNoData="false" class="firstTable">-->
+		<!--	<columns>-->
+		<!--		<Column class="tableHeaderClass" width="5rem">-->
+		<!--			<Text text="Production line" class="textColorID"></Text>-->
+		<!--		</Column>-->
+		<!--		<Column class="tableHeaderClass">-->
+		<!--			<Text text="Production line Description" class="textColorID"></Text>-->
+		<!--		</Column>-->
+		<!--		<Column class="tableHeaderClass">-->
+		<!--			<Text text="Inspection lot" class="textColorID"></Text>-->
+		<!--		</Column>-->
+		<!--		<Column width="1rem"></Column>-->
+		<!--		<Column class="tableHeaderClass" width="6rem">-->
+		<!--			<Text text="Status" class="textColorID"></Text>-->
+		<!--		</Column>-->
+		<!--	</columns>-->
+		<!--	<ColumnListItem>-->
+		<!--		<cells class="cellsId" width="5rem">-->
+		<!--			<Label id="fragmentProductionLineTableId"></Label>-->
+		<!--		</cells>-->
+		<!--		<cells class="cellsId">-->
+		<!--			<Label id="fragmentProductionLineDescTableId"></Label>-->
+		<!--		</cells>-->
+		<!--		<cells class="cellsId">-->
+		<!--			<Label id="fragmentInspectionListTableId"></Label>-->
+		<!--		</cells>-->
+		<!--		<cells class="cellsId">-->
+		<!--			<Image id="fragmentStatusIconTableId"></Image>-->
+		<!--		</cells>-->
+		<!--		<cells class="cellsId">-->
+		<!--			<Label id="fragmentStatusTableId"></Label>-->
+		<!--		</cells>-->
+		<!--	</ColumnListItem>-->
+		<!--</Table>-->
+		<!--<Bar class="fragmentBarClass">-->
+		<!--	<contentLeft>-->
+		<!--		<Label class="fragmenBarLabelClass" text="Lot Inspection Details"></Label>-->
+		<!--	</contentLeft>-->
+		<!--</Bar>-->
+		<!--height="190px"-->
+		<Panel class="PanelTableClass" id="PanelTableId"></Panel>
+		<!--<semantic:customFooterContent>-->
+		<!--	<OverflowToolbarButton icon="sap-icon://save" text="Save" press="SaveBtn"/>-->
+		<!--</semantic:customFooterContent>-->
+	</semantic:DetailPage>
+</mvc:View>

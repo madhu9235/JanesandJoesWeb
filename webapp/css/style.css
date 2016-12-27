@@ -1,0 +1,207 @@
+.PageId {
+    background-color: white !important;
+}
+
+.sapMSplitContainerMaster{
+	width: 233px !important;
+}
+.DetailPageClass div {
+	 color: white !important;
+    text-align: start !important;
+}
+/*.DetailPageClass header{*/
+/* background-color: #253C80 !important;	*/
+/*}*/
+.DetailPageClass h5 {
+    color: red !important;
+}
+.sapMPanelContent{
+	padding :0rem !important;
+}
+.headingBarClass,
+.meaterilBarClass,
+.fragmentBarClass {
+    background-color: #253C80 !important;
+}
+.DetailtoolHeaderClass{
+    height: 3rem !important;
+}
+.headerTextClass,
+.DataAndTimeClass {
+    color: #253C80 !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+.sapUiFormM .sapUiFormContainerTitle>.sapUiFormTitle {
+    height: 0rem !important;
+}
+.margin {
+    margin-top: 1rem;
+}
+.cursor {
+    cursor: pointer;
+}
+.textAlign {
+    text-align: center;
+}
+.sapMListBGSolid .sapMLIB {
+    height: 12rem !important;
+    background: #ffffff;
+}
+.sapMObjLNumber {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6rem;
+    font-weight: normal;
+    color: #333333;
+}
+.sapMText.sapMObjLTitle {
+    color: #333333;
+    font-size: .8rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+}
+
+.sapMListBGSolid .sapMLIB {
+     height: 8rem !important; 
+    
+}
+.sapMLIB.sapMLIBSelected {
+     background: #F0F8FF !important; 
+}
+/*.plantLabelClass,*/
+
+/*.shopLabelClass,*/
+
+/*.datatLabelClass {*/
+
+/*	font-weight: bold !important;*/
+
+/*    margin-top: 37% !important;*/
+
+/*    margin-left: 10px !important;*/
+
+/*}*/
+
+/*.materialLabelClass {*/
+
+/*	font-weight: bold !important;*/
+
+/*    margin-top: 28% !important;*/
+
+/*    margin-left: 10px !important;*/
+
+/*}*/
+
+/*.plantComboBoxClass,*/
+
+/*.DatePickerClass {*/
+
+/*    margin-left: 10px !important;*/
+
+/*}*/
+
+.openStatus span {
+    color: #008000 !important;
+    font-weight: bold !important;
+}
+.closeStatus span {
+    color: red!important;
+    font-weight: bold !important;
+}
+.sapMFlexBoxWrapNoWrap {
+    background-color: white !important;
+}
+.InputBox_table_lessthan input {
+    border: 1px solid #009DE0 !important;
+    color: #009DE0 !important;
+}
+.InputBox_table_lessthan_greater input {
+    border: 1px solid #cc1919 !important;
+    color: #cc1919 !important;
+}
+.InputBox_table_else input {
+    border-top: 1px solid #e5e5e5 !important;
+}
+.hide input {
+    visibility: hidden !important;
+}
+.SearchScreenImageClass {
+    width: 100% !important;
+    height: 100% !important;
+}
+/*.plantComboBoxClass,.coreTitleClass{*/
+
+/*	 width: 50% !important;*/
+
+/*}*/
+
+/*.plantComboBoxClass,.sapUiRFLContainer{
+	min-width:60% !important;
+	width: 15% !important;
+}*/
+
+.DatePickerClass {
+    width: 100% !important;
+}
+.SectionLabelClass,
+.PartLabelClass {
+    color: white !important;
+}
+.headingLabelClass,
+.meaterialLabelClass {
+    color: white !important;
+}
+.toolHeaderClass {
+    background-color: #F9F9F9 !important;
+}
+.tableHeaderClass {
+    background-color: #D1E3F9 !important;
+}
+.homeFooter {
+    background-color: transparent !important;
+}
+.rightsTextClass {
+    color: black !important;
+}
+
+/*table*/
+.firstTable th {
+    background-color: #253C80 !important;
+}
+.textColorID{
+color: white !important;	
+}
+.StatusImgClass td {
+    width: 5% !important;
+}
+.cellsId td {
+    width: 2% !important;
+}
+.fragmenBarLabelClass {
+    color: white !important;
+}
+/*for select combobox */
+
+/*.sapMSltArrow {*/
+
+/*    background: #cc1919 !important;*/
+
+/*}*/
+
+.sapMInputValHelpInner.sapUiIcon {
+    background: #cc1919 !important;
+}
+
+.sapMListTbl .sapMText{
+   /* padding-top: 1px;*/
+    font-size: 0.74rem;
+    /*color: #333333;
+    font-weight: normal;*/
+}
+/*.sapMBtnInner {*/
+
+/*    background: #cc1919 !important;*/
+
+/*    color: #F7F7F7 !important;*/
+
+/*}*/

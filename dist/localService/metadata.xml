@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0"
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+    xmlns:sap="http://www.sap.com/Protocols/SAPData">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <!--<Schema Namespace="ZGP_TVS_TS" xml:lang="en"-->
+        <!--    xmlns="http://schemas.microsoft.com/ado/2008/09/edm">-->
+        <!--    <EntityType Name="Ztvs" sap:content-version="1">-->
+        <!--        <Key>-->
+        <!--            <PropertyRef Name="OPN"/>-->
+        <!--        </Key>-->
+        <!--        <Property Name="OPN" Type="Edm.String" Nullable="false" MaxLength="4"/>-->
+        <!--        <Property Name="OPNDESC" Type="Edm.String" MaxLength="30"/>-->
+        <!--        <Property Name="CHARID" Type="Edm.String" MaxLength="4"/>-->
+        <!--        <Property Name="CHARIDDESC" Type="Edm.String" MaxLength="30"/>-->
+        <!--        <Property Name="ISL" Type="Edm.String" MaxLength="10"/>-->
+        <!--        <Property Name="USL" Type="Edm.String" MaxLength="10"/>-->
+        <!--        <Property Name="UOM" Type="Edm.String" MaxLength="8"/>-->
+        <!--        <Property Name="SPC" Type="Edm.String" MaxLength="4"/>-->
+        <!--        <Property Name="PMETHOD" Type="Edm.String" MaxLength="8"/>-->
+        <!--        <Property Name="VAL1" Type="Edm.String" MaxLength="10"/>-->
+        <!--        <Property Name="VAL2" Type="Edm.String" MaxLength="10"/>-->
+        <!--        <Property Name="VAL3" Type="Edm.String" MaxLength="10"/>-->
+        <!--    </EntityType>-->
+        <!--    <EntityContainer Name="ZGP_TVS_TS" m:IsDefaultEntityContainer="true">-->
+        <!--        <EntitySet Name="ZtvsCollection" EntityType="ZGP_TVS_TS.Ztvs" sap:content-version="1"/>-->
+        <!--    </EntityContainer>-->
+        <!--    <atom:link rel="self" href="./sap/ZGP_TVS_TS/$metadata"-->
+        <!--        xmlns:atom="http://www.w3.org/2005/Atom"/>-->
+        <!--        <atom:link rel="latest-version" href="./sap/ZGP_TVS_TS/$metadata"-->
+        <!--            xmlns:atom="http://www.w3.org/2005/Atom"/>-->
+        <!--        </Schema>-->
+            </edmx:DataServices>
+        </edmx:Edmx>

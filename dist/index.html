@@ -1,0 +1,36 @@
+<!DOCTYPE html>  
+<html>  
+  <head>  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />  
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+  <title>TVS Inspection Recording</title>  
+  <!-- Bootstrap the UI5 core library -->  
+    <!-- src="../resources/sap-ui-core.js" -->
+    <!--src="/sap/public/bc/ui5_ui5/1/resources/sap-ui-cachebuster/sap-ui-core.js"-->
+    
+     <!--src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"-->
+  <script id="sap-ui-bootstrap"  
+  src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+  data-sap-ui-libs="sap.m,sap.ui.core"  
+  data-sap-ui-xx-bindingSyntax="complex"
+  data-sap-ui-theme="sap_bluecrystal"  
+  data-sap-ui-compatVersion="edge"  
+  data-sap-ui-resourceroots='{"tvsmatser": ""}'  
+  >  
+  </script>  
+  <script>  
+  sap.ui.getCore().attachInit(function() {  
+  new sap.m.Shell ({  
+  app: new sap.ui.core.ComponentContainer ({  
+  height: "100%",  
+  name: "tvsmatser"  
+  })  
+  }).placeAt("content");  
+  });  
+  </script>  
+  </head>  
+  <!-- UI Content -->  
+  <body class="sapUiBody" id="content">  
+  </body>  
+</html>

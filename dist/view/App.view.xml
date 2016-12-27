@@ -1,0 +1,17 @@
+<mvc:View
+		controllerName="tvsmatser.controller.App"
+		xmlns:mvc="sap.ui.core.mvc"
+		displayBlock="true"
+		 xmlns:tnt="sap.tnt"
+		busy="{appView>/busy}"
+		busyIndicatorDelay="{appView>/delay}"
+		xmlns="sap.m">
+	<tnt:ToolHeader class="DetailtoolHeaderClass">
+					<Image src="images/Logo.png"></Image>
+					<ToolbarSpacer/>
+					<Text class="headerTextClass" text="Inspection / Measurement Value Recording System" wrapping="false"></Text>
+					<ToolbarSpacer/>
+					<Text id="DetailDataAndTimeid" class="DataAndTimeClass"></Text>
+				</tnt:ToolHeader>
+	<SplitApp id="idAppControl" />
+</mvc:View>
